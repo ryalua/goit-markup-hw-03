@@ -20,11 +20,18 @@ body {
     padding: 0;
     margin: 0;
 }
-/* Header */
+/*-----------------Header----------------------- */
 .page-header {
     background-color: #ccc;
 }
-
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;;
+    outline: 2px solid tomato;
+}
 /* Logo */
 .logo-header {
     color: var(--logo-heder-color):
@@ -75,20 +82,30 @@ body {
 } 
 
 
-/* Hero h1*/
+/*------------------- Hero h1----------------------*/
 .hero {
     background-color:var(--hero-footer-bcg);
+    align-items: center;
+    text-align: center;
 }
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+
+
     color:var(--button-text-color) ;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-align: center;
     text-transform: uppercase;
+    outline: 2px solid tomato;
 }
 .hero .button-hero {
+    padding: 0;
+    margin: 0;
+
     background-color: var(--accent-color);
     color:var(--button-text-color) ;
     font-family: Roboto, sans-serif;
@@ -96,13 +113,12 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
 }
 
-/* Section h2*/
+/*------------------ Section h2 --------------*/
+
 .section-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -157,11 +173,11 @@ body {
 
 /* Button */
 .button {
-    display: inline-block;
-    padding:6px avto;
-    min-width: 73px;
+    /* display: inline-block; */
+    padding:6px 22px; 
+    min-width: 73px; 
     border-radius: 4px;
-    text-align: center;
+    /* text-align: center;  */
 
     background-color: var(--button-primery-bcg);
     color: var(--title-text-color);
@@ -177,7 +193,7 @@ body {
     background-color: var(--accent-color);
     color: var(--button-text-color);
 }
-/* Footer */
+/*-------------------- Footer -------------------*/
 .bcg-footer {
     background-color: var(--hero-footer-bcg);
 }
