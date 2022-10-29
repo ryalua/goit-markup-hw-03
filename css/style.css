@@ -20,6 +20,17 @@ body {
     padding: 0;
     margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
 /*-----------------Header----------------------- */
 .page-header {
     background-color: #ccc;
@@ -29,7 +40,8 @@ body {
     margin-right: auto;
     width: 1200px;
     padding-left: 15px;
-    padding-right: 15px;;
+    padding-right: 15px;
+    margin-bottom: 94px;
     outline: 2px solid tomato;
 }
 /* Logo */
@@ -87,12 +99,10 @@ body {
     background-color:var(--hero-footer-bcg);
     align-items: center;
     text-align: center;
+    
 }
 .hero-title {
-    margin-top: 0;
     margin-bottom: 30px;
-    padding-bottom: 0;
-
 
     color:var(--button-text-color) ;
     font-weight: 900;
@@ -118,7 +128,9 @@ body {
 }
 
 /*------------------ Section h2 --------------*/
-
+h2 {
+    margin-bottom: 50px;
+}
 .section-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -127,6 +139,8 @@ body {
     text-align: center;
 }
 .link .section-title {
+    margin-bottom: 4px;
+
     color:var(--title-text-color) ;
     font-weight: 700;
     font-size: 18px;
@@ -137,6 +151,8 @@ body {
 
 /* Feature h3, p*/
 .feature-list .title {
+    margin-bottom: 10px;
+
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -144,6 +160,8 @@ body {
     text-transform: uppercase;
 }
 .feature-list .text {
+    
+
     color: var(--primery-text-color);
     font-size: 14px;
     line-height: 1.71;
@@ -158,6 +176,8 @@ body {
 
 /* Team h3, p*/
 .team-list .title {
+    margin-bottom: 10px;
+
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -173,6 +193,8 @@ body {
 
 /* Button */
 .button {
+    margin-bottom: 34px;
+    
     /* display: inline-block; */
     padding:6px 22px; 
     min-width: 73px; 
@@ -198,6 +220,8 @@ body {
     background-color: var(--hero-footer-bcg);
 }
 .logo-footer {
+    margin-bottom: 20px;
+
     color:var(--button-text-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -205,13 +229,17 @@ body {
     line-height: 1.19;
     text-decoration:none;
 }
-.addr-footer {
+.addr-footer .text{
+    margin-bottom: 9px;
+
     color:var(--button-text-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
 .com-footer .link {
+    margin-bottom: 9px;
+
     color: var(--com-footer-color);
     font-style: normal;
     font-size: 14px;
