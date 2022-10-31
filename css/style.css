@@ -158,8 +158,9 @@ ul {
     /* outline: 2px solid tomato; */
 }
 .hero .button-hero {
-    padding: 0;
+    padding: 10px 32px;
     margin: 0;
+    border-radius: 4px;
 
     background-color: var(--accent-color);
     color:var(--button-text-color) ;
