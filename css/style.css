@@ -332,6 +332,9 @@ h2 {
     text-align: left;
 }
 .project-border {
+    padding: 20px 24px;
+    
+
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
     border-left: 1px solid var(--border-color);
