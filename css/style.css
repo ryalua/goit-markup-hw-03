@@ -175,10 +175,6 @@ ul {
 h2 {
     margin-bottom: 50px;
 }
-.container {
-    margin: 0;
-    padding: 0;
-}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
