@@ -242,6 +242,9 @@ h2 {
 .staff {
     display: flex;
 }
+.staff-item {
+    background-color: var(--button-text-color);
+}
 .staff-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -313,7 +316,7 @@ h2 {
     /* gap: 30px; */
 }
 .project-item {
-/* flex-basis: calc((100% - 60px) /3); */
+/* flex-basis: calc((100%-60px) /3); */
      width:calc((100%-60px)/3); 
 }
 .project-item:not(:nth-child(3n)) {
@@ -387,7 +390,7 @@ img {
     font-size: 14px;
     line-height: 1.71;
 }
-.com-footer {
+.com-footer:not(:last-child) {
     margin-bottom: 9px;
 }
 
