@@ -8,6 +8,7 @@
     --logo-heder-color: #000;
     --com-footer-color: rgba(255, 255, 255, 0.6);
     --border-color: #ECECEC;
+    --button-hero-hover: #188CE8;
 }
 
 body {
@@ -112,7 +113,7 @@ ul {
     color: var(--accent-color);
 }
 
-.link {
+.com-header .link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -170,6 +171,10 @@ ul {
     line-height: 1.9;
     letter-spacing: 0.06em;
     cursor: pointer;
+}
+.hero .button-hero:hover,
+.hero .button-hero:focus {
+    background-color: var(--button-hero-hover);
 }
 
 /*------------------ Section h2 --------------*/
@@ -255,7 +260,7 @@ h2 {
     gap: 30px;
 }
 .staff-item {
-    flex-basis: calc(100% - 90px)/4;
+    flex-basis: calc((100% - 90px)/4);
 
     background-color: var(--button-text-color);
 }
@@ -404,7 +409,7 @@ img {
     margin-bottom: 9px;
 }
 
-.com-footer .link {
+.com-footer .link-footer {
     /* margin-bottom: 9px; */
     padding-top: 0;
     padding-bottom: 0;
@@ -414,7 +419,7 @@ img {
     font-size: 14px;
     line-height: 1.71;
 }
-.com-footer .link:hover,
-.com-footer .link:focus {
+.com-footer .link-footer:hover,
+.com-footer .link-footer:focus {
     color: var(--accent-color);
 }
