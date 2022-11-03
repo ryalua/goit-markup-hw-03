@@ -346,6 +346,7 @@ h2 {
 .projects .link {
     padding-top: 0;
     padding-bottom: 0;
+    text-decoration: none;
 }
 .section-title {
     color: var(--title-text-color);
