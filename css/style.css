@@ -419,6 +419,7 @@ img {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 .com-footer .link-footer:hover,
 .com-footer .link-footer:focus {
